@@ -4,4 +4,4 @@
 #
 
 echo " - start 1 mem allocator in lowmem - 128 MB"
-cgexec -g memory:lowmem ./mem-alloc &
+sudo cgexec -g memory:lowmem ./mem-alloc &
