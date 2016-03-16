@@ -10,15 +10,15 @@ To list actual docker images
 
 To build a docker file
 
-```docker build -t "centos7-base" .```
+```docker build -t "docker-primenumber-test" .```
 
 To run the image ( --rm remove the container after exit, -t attach a terminal, -i interactive)
 
-```docker run --rm -t -i centos7-base```
+```docker run --rm -t -i docker-primenumber-test```
 
 To override default command
 
-```docker run --rm -t -i centos7-base /bin/bash```
+```docker run --rm -t -i docker-primenumber-test /bin/bash```
 
 To list active containers
 
@@ -34,5 +34,5 @@ To execute a command inside a running container
 
 To execute two containers with limited cpu --cpuset=0 forces execution in first cpu, --cpu-shares=n sets relative share
 
-```docker run --rm -t --cpuset=0 --cpu-shares=512 centos7-base```
-```docker run --rm -t --cpuset=0 --cpu-shares=1024 centos7-base```
+```docker run --rm -t --cpuset-cpus 0 --cpu-shares 512 docker-primenumber-test```
+```docker run --rm -t --cpuset-cpus 0 --cpu-shares 1024 docker-primenumber-test```
