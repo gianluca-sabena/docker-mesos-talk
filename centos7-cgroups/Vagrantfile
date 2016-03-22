@@ -27,7 +27,7 @@ Vagrant.configure("2") do |config|
       # turn off shared folder
       c.vm.synced_folder ".", "/vagrant", :disabled => true
       # turn on custom shared folder
-      c.vm.synced_folder "./centos7-cgroups", "/vagrant-shared/centos7-cgroups", :disabled => false
+      c.vm.synced_folder "./", "/vagrant-shared/centos7-cgroups", :disabled => false
     end
   end
 end

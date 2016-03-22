@@ -1,16 +1,16 @@
 # Docker example
 
-Docker must be installed on the system https://docs.docker.com/installation/#installation
+Install docker https://docs.docker.com/installation/#installation
 
 # Docker commands
 
-To list actual docker images
+To list local docker images
 
 ```docker images```
 
 To build a docker file
 
-```docker build -t "docker-primenumber-test" .```
+```docker build -t docker-primenumber-test .```
 
 To run the image ( --rm remove the container after exit, -t attach a terminal, -i interactive)
 
