@@ -19,7 +19,7 @@ def main(argv):
 
   for i in range(low,high):
     if is_prime(i):
-      print " - Pid:" ,pid ," - Prime number(s): " ,i
+      print " - Pid:" ,pid ," - Prime number (s): " ,i
 
 if __name__ == "__main__":
   main(sys.argv[1:])

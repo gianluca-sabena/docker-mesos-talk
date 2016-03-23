@@ -17,7 +17,7 @@ RUN yum -y update
 RUN useradd docker -c 'docker user' -s /usr/sbin/nologin -m
 RUN mkdir -p /opt/talk
 RUN chown docker:docker /opt/talk
-USER docker
+USER usrdkr
 
 # Add application
 
