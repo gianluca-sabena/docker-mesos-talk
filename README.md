@@ -12,5 +12,5 @@ Slides https://docs.google.com/presentation/d/1mPJ7OU0KYGs3bdGJgeKaoWuLKUmcPTqA0
 
 Next:
 
- 1. Follow a [basic docker tutorial](docker-examlpe/README.md)
- 2. Follow [docker-compose tutorial](docker-compose-turorial/README.md)
+ 1. Follow a [basic docker tutorial](docker-example/README.md)
+ 2. Follow [docker-compose tutorial](docker-compose-tutorial/README.md)
